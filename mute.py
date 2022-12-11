@@ -4,9 +4,8 @@ from OlivaBiliLive.plugin import BotPlugin, DanmakuMessage, load_config
 
 DEFAULT_CONTENT = {
     'bad_danmaku': [
-        '主播是个大伞兵',
-        '主播你寄吧谁啊',
-        '主播NMSL'
+        "你是笨蛋",
+        "我也是笨蛋"
     ]
 }
 
