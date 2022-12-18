@@ -1,3 +1,7 @@
+'''送礼回复
+
+接受到送礼事件后发送弹幕
+'''
 import OlivaBiliLive
 
 from OlivaBiliLive.plugin import BotPlugin, GiftMessage
