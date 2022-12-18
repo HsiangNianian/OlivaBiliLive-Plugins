@@ -1,3 +1,6 @@
+'''禁言插件
+
+屏蔽bad_danmaku内的语句'''
 import OlivaBiliLive
 
 from OlivaBiliLive.plugin import BotPlugin, DanmakuMessage, load_config
