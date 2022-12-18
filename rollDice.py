@@ -42,16 +42,3 @@ class Dice(BotPlugin):
             RollNum = 1
         DiceList,Total = roll_dice(RollNum,RangeNum) # type: ignore
         await self.send_message(f'掷骰结果: {DiceList} = {Total}')
-
-# txt = '.r6d100'
-# numList = re.findall(r'.r(\d+)?d?(\d+)?',txt)
-# try:
-#     RangeNum = int(numList[0][1])
-# except ValueError:
-#     RangeNum = 100
-# try:
-#     RollNum = int(numList[0][0])
-# except ValueError:
-#     RollNum = 1
-# DiceList,Total = roll_dice(RollNum,RangeNum) # type: ignore
-# print(f'掷骰结果: {DiceList} = {Total}')
